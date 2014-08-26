@@ -44,5 +44,6 @@ start = time.time()
 answer = max_product(4)
 elapsed = (time.time()-start)
 
+print "Quaa."
 print "found %s in %s seconds" % (answer,elapsed)
 pyperclip.copy(answer)
